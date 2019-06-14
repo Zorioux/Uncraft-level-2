@@ -1,0 +1,9 @@
+name: Uncraft
+version: ${project.version}
+main: uncraft.mythicmc.zorioux.uncraft.Uncraft
+authors: [Zorioux]
+description: Uncraft your saddle into leather and iron
+website: Mythicmc.info/forums
+commands:
+  uncraft:
+    description: uncraft your saddle to 3 leathers and 1 iron ingot

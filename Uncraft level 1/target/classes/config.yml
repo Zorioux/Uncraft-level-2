@@ -1,0 +1,28 @@
+#################################################################
+### choose the blocks you want to drop from un-crafting saddle###
+#################################################################
+
+
+# make the list you want
+#fill the Drops list with drops you want to be dropped
+# example
+# Drops:
+#   -Leather
+#   -Iron ingot
+
+#fill the quantity list with the quantity of each drop and it should be series
+# so this mean if first list has first drop is leather and you want it to drop 3
+#set the first slot of the list "quantity" with 3 and so on , if slot kept empty
+#it will drop 1 by default
+
+Drops:
+  - Leather
+  - Iron_Ingot
+  -
+  -
+
+Quantity:
+  - 3
+  - 1
+  -
+  -
