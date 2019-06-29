@@ -9,7 +9,11 @@ public final class Uncraft extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getCommand("uncraft").setExecutor(new command(this));
+        this.getCommand("uncraft").setExecutor(new command());
+
+
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "uncrafter launched successfully !");
     }
 
@@ -19,4 +23,8 @@ public final class Uncraft extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
     }
-}
+
+
+
+    }
+
