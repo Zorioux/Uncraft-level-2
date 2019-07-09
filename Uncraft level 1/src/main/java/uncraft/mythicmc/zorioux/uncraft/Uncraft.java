@@ -10,6 +10,7 @@ public final class Uncraft extends JavaPlugin {
     @Override
     public void onEnable() {
         this.getCommand("uncraft").setExecutor(new command());
+        this.getCommand("uncraft-reload").setExecutor(new ReloadConfig());
 
 
         getConfig().options().copyDefaults();
