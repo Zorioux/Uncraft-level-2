@@ -13,9 +13,20 @@
 
 # it is not creator fault if you did not follow instructions correctly or put a false id
 
-
+# here small example
+#  - 'saddle=leather#3&iron_ingot#1'
+#  - 'Iron_pickaxe=stick#2&iron_ingot#3'
 
 # here the list add your stuff
 un-craft:
-  - 'saddle=leather#3&iron_ingot#1'
-  - 'Iron_pickaxe=stick#2&iron_ingot#3'
+
+
+
+
+
+
+
+
+# plugin's permissions
+# mythic.uncraft.reload.use , allows player to reload config
+# mythic.uncraft.use , allows player to use /uncraft command
