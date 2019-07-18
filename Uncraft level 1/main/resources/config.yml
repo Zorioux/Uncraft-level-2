@@ -1,0 +1,34 @@
+                                     ############################
+                                     ## un-crafter config file ##
+                                     ############################
+
+
+
+# HOW TO USE IMPORTANT:
+# in un-craft: go down once add - then follow instructions with ' '
+# type the id of item that will be uncrafted , then add =  WITHOUT ANY SPACES
+# then type the drops id such as Leather add # WITHOUT ANY SPACES and add number of how many to drop again no spaces mmk e_e ?
+# then make another drop by adding & WITHOUT ANY SPACES  and follow the line above
+# make another item to be uncrafted the same way under your previous item
+
+# it is not creator fault if you did not follow instructions correctly or put a false item id
+
+# here small example
+#un-craft:
+#  - 'saddle=leather#3&iron_ingot#1'
+#  - 'Iron_pickaxe=stick#2&iron_ingot#3'
+
+# here the list add your stuff
+un-craft:
+
+
+
+
+
+
+
+
+# plugin's permissions
+# mythic.uncraft.reload.use , allows player to reload config
+# mythic.uncraft.use , allows player to use /uncraft Command
+# mythic.uncraft.list.use , allows player to list what can be uncrafted

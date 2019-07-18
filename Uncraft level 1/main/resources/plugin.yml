@@ -1,0 +1,19 @@
+name: Uncraft
+version: 1.0
+main: uncraft.mythicmc.zorioux.uncraft.Uncraft
+authors: [Zorioux]
+description: Uncraft your items that modified in config
+website: Mythicmc.info/forums
+commands:
+  uncraft:
+    description: custom uncraft
+    aliases: [uc]
+  uncraft-reload:
+    description: reloads config in game or in console !
+    aliases: [ucr]
+  uncraftlist:
+    description: lists all uncraftable items
+    aliases: [ucl]
+  uncraftinfo:
+    description: lists what item can be uncrafted to
+    aliases: [uci]
